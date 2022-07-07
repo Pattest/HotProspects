@@ -17,6 +17,7 @@
 		27DD40D5287593E1009CC37F /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD40D4287593E1009CC37F /* Prospect.swift */; };
 		27DD40D82875C82A009CC37F /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD40D72875C82A009CC37F /* CodeScanner */; };
 		27EFE1E32877046C008D6BB8 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFE1E22877046C008D6BB8 /* ImageSaver.swift */; };
+		27EFE1E728772605008D6BB8 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EFE1E628772605008D6BB8 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		27DD40D228759261009CC37F /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		27DD40D4287593E1009CC37F /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		27EFE1E22877046C008D6BB8 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		27EFE1E628772605008D6BB8 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				27DD40CF28757961009CC37F /* Model */,
 				27DD40CE2875795C009CC37F /* View */,
 				27EFE1E4287710E9008D6BB8 /* Helper */,
+				27EFE1E5287725F3008D6BB8 /* Extension */,
 				27DD40BE287577EC009CC37F /* HotProspectsApp.swift */,
 				27DD40C2287577ED009CC37F /* Assets.xcassets */,
 				27DD40CC2875784F009CC37F /* README.md */,
@@ -106,6 +109,14 @@
 				27EFE1E22877046C008D6BB8 /* ImageSaver.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		27EFE1E5287725F3008D6BB8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				27EFE1E628772605008D6BB8 /* FileManager-DocumentsDirectory.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27DD40D328759261009CC37F /* MeView.swift in Sources */,
+				27EFE1E728772605008D6BB8 /* FileManager-DocumentsDirectory.swift in Sources */,
 				27EFE1E32877046C008D6BB8 /* ImageSaver.swift in Sources */,
 				27DD40D5287593E1009CC37F /* Prospect.swift in Sources */,
 				27DD40D128759258009CC37F /* ProspectsView.swift in Sources */,
